@@ -1,5 +1,5 @@
 # MyBlackpinkWebsite
-# Live Website <a href = "myblackpinkwebsite.glitch.me target="blank">Here</a>
+# Live Website On - https://myblackpinkwebsite.glitch.me/
 # Website Made By Me Completely In HTML.
 # About BTS.
 # About Members.
