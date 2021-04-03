@@ -8,7 +8,7 @@
   width: 100%;
 }
 .responsive {
-  width: 95%;
+  width: 100%;
   height: auto;
 }
 @media only screen and (min-width: 768px) {
@@ -18,6 +18,37 @@
       </style>
    </head>
    <body bgcolor="pink">
+     <script language=JavaScript>
+
+var message="Function Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
      <div 
  style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
  unselectable="on"
@@ -28,17 +59,12 @@
       <center><button><a href="index.html">Go To Home</a></button></center>
      <h1><center><b><u><i>ROSÉ | Interview Film</i></u></b></center></h1>
     <center>
-
        <button><a href ="https://www.youtube.com/watch?v=YmZEXPPDCzc">
          Watch Rosé Interview Film Here.!!
          </a></button>
 
 <br>
     <center><audio autoplay loop>
-
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/YmZEXPPDCzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="responsive"></iframe></center>
-      <audio autoplay loop>
-
          <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FOn-The-Ground-(mp3news.wapkiz.mobi).mp3?v=1615984217597">
       </audio>
        <p>
