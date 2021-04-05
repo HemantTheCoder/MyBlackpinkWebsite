@@ -13,6 +13,22 @@
          body{
          cursor:url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FBlackpink%20Lightstick.cur?v=1615995035242"), auto;
          }
+   .mode {
+            float:right;
+        }
+        .change {
+            cursor: pointer;
+            border: 1px solid #555;
+            border-radius: 40%;
+            width: 20px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
       </style>
 <script type="text/javascript">
 	function changeColor(colorName) {
@@ -23,9 +39,16 @@
 	<meta name="Author" content="Hemant">
 	<meta name="Description" content="This Is A Website For Blackpink Fans To Know More About Them , Made By Hemant">
     <title>Blackpink</title>
+   <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
 </head>
 
 <body bgcolor="pink">
+  <div class="mode">
+        Dark mode:             
+        <span class="change">OFF</span>
+    </div>
   <script language=JavaScript>
 
 var message="Function Disabled!";
@@ -146,6 +169,17 @@ Youtube: Blackpink<br><hr>
         <button><a href="https://en.wikipedia.org/wiki/Blackpink" target="blank">Know More</a></button>
     </center>
 			<hr>
+              <script>
+        $( ".change" ).on("click", function() {
+            if( $( "body" ).hasClass( "dark" )) {
+                $( "body" ).removeClass( "dark" );
+                $( ".change" ).text( "OFF" );
+            } else {
+                $( "body" ).addClass( "dark" );
+                $( ".change" ).text( "ON" );
+            }
+        });
+    </script>
                   </div></body>
 
 </html>
