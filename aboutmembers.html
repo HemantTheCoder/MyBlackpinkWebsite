@@ -3,24 +3,27 @@
 
 <head>
     <title>Jisoo</title>
-    <style>
-        [class*="col-"] {
-  width: 100%;
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <style>
+     .parallax {
+  background-image: url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2F4b0bdfc6-a639-11ea-8ea0-d7434be00753_image_hires_121748.jpg?v=1625650608017");
+
+  /* Set a specific height */
+  min-height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.responsive {
-  width: 100%;
-  height: auto;
-}
-@media only screen and (min-width: 768px) {
-         body{
-         cursor:url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FBlackpink%20Lightstick.cur?v=1615995035242"), auto;
-         }
-      </style>
+     </style>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body bgcolor="pink">
-  <div 
+<body bgcolor="#FF80FF">
+  <div  class="parallax"
  style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
  unselectable="on"
  onselectstart="return false;" 
@@ -37,13 +40,15 @@
   <audio autoplay loop>
   <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FBLACKPINK%20JISOO%20-%20'HABITS%20(Stay%20High)'%20Solo%20Cover-%5BAudioTrimmer.com%5D.mp3?v=1613741446037">
   </audio>
+    <h4>
     <marquee>
       Song : <b>Habits (Stay High). [Cover By Jisoo]. <a href="https://www.youtube.com/watch?v=zaMUXYtQURQ">Lyrics Video</a></b>
-</marquee>
+      </marquee>
+    </h4>
     <h1><center><b><i><u>Kim Ji-soo aka Jisoo</u></i></b></center></h1>
 
-    <center><img src="Jisoo.webp"></center>
-        <p>
+    <center><img src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fjisoobday.png?v=1625650961319" width="90%"></center>
+        <h4>
         <center>Stage Name: Jisoo (지수)<br><hr>
 Birth Name: Kim Ji Soo (김지수)<br><hr>
 Nickames: Chi Choo, Jichu<br><hr>
@@ -118,16 +123,17 @@ Weibo: sooyaaa__<br><hr>
           <b>Jisoo Drama Series:</b><br>
 Snowdrop (설강화) | JTBC / 2021 – Eun Young-cho<br>
 Arthdal Chronicles (아스달 연대기) | tvN / 2019 – Sae Na-rae (Cameo)<br><hr></center>
-    </p>
+    </h4>
     <center>
-        <button><b><i><a href="https://en.wikipedia.org/wiki/Jisoo_(singer,_born_1995)">Know More</a></b></i>
-        </button>
-    </center>
+        <a href="https://en.wikipedia.org/wiki/Jisoo_(singer,_born_1995)" class="button">Know More</a>
+      </center>
     <center>
-        <button><b><i><a href="Jennie.html">Next Member</button></a></i></b></center>
-    <center>
-        <button><a href="index.html">Go To Previous Page</a></center>
-    </button>
-  </div></body>
+        <a href="Jennie.html" class="button2">Next Member</a>
+      </center>
+        <center>
+        <a href="index.html" class="button">Home</a>
+      </center>
+  </div>
+  </body>
 
 </html>

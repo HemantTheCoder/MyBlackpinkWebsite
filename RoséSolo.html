@@ -1,70 +1,39 @@
 <!DOCTYPE html>
 <html>
    <head>
+     <link rel="stylesheet" href="styles.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Rosé</title>
-      <style>
-        [class*="col-"] {
-  width: 100%;
+     <script src="script.js"></script>
+     <style>
+     .parallax {
+  background-image: url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fwp5789848.jpg?v=1626515894913");
+
+  /* Set a specific height */
+  min-height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.responsive {
-  width: 100%;
-  height: auto;
-}
-@media only screen and (min-width: 768px) {
-         body{
-         cursor:url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FBlackpink%20Lightstick.cur?v=1615995035242"), auto;
-         }
-      </style>
+     </style>
    </head>
-   <body bgcolor="pink">
-     <script language=JavaScript>
-
-var message="Function Disabled!";
-
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-
-document.oncontextmenu=new Function("alert(message);return false")
-
-</script>
+  <div class="parallax">
+    <body>
      <div 
  style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
  unselectable="on"
  onselectstart="return false;" 
  onmousedown="return false;">
-      <script src="cursor.js"></script>
-      <center><button><a href="Rose.html">Back To Short Bio</a></button></center>
-      <center><button><a href="index.html">Go To Home</a></button></center>
      <h1><center><b><u><i>ROSÉ | Interview Film</i></u></b></center></h1>
-    <center>
-       <button><a href ="https://www.youtube.com/watch?v=YmZEXPPDCzc">
-         Watch Rosé Interview Film Here.!!
-         </a></button>
+       <center>
+        <a href="https://www.youtube.com/watch?v=YmZEXPPDCzc" class="button" target="blank">Watch Rosé Interview Film Here.!!</a>
+      </center>
 
 <br>
-    <center><audio autoplay loop>
+    <audio autoplay loop>
          <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FOn-The-Ground-(mp3news.wapkiz.mobi).mp3?v=1615984217597">
       </audio>
        <p>
@@ -74,7 +43,7 @@ document.oncontextmenu=new Function("alert(message);return false")
          <center><b><i><u>Rosé -R-</u></i></b></center>
       </h1>
       <center><img src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Froser.jpg?v=1615985337290" width="800" class="responsive"></center>
-      <p>
+      <h4>
       <hr>
       <center>
          Stage Name: ROSÉ<br>
@@ -222,7 +191,7 @@ document.oncontextmenu=new Function("alert(message);return false")
          – Rosé’s ideal type: Someone nice and genuine, with a good/ unique voice. She said there are many sunbaenims with great voices, but among them, Big Bang stand out. She also mentioned Gong Yoo as a celebrity close to her ideal type. (2 O’Clock Date)<br>
          <hr>
       </center>
-      </p>
+      </h4>
       <h3>
          <center>
             Listen To Rosé New Album On Spotify!
@@ -239,9 +208,18 @@ document.oncontextmenu=new Function("alert(message);return false")
       </center>
 
       <center>
-         <button><a href="https://en.wikipedia.org/wiki/Ros%C3%A9_(singer)" target="blank">Know More</a></button>
+        <a href="https://en.wikipedia.org/wiki/Ros%C3%A9_(singer)" class="button2">Know More</a>
       </center>
-      <center><button><a href="Rose.html">Go To Short Bio</a></button></center>
-      <center><button><a href="index.html">Go To Home</a></button></center>
-     </div></body>
+      <center>
+        <a href="Lisa.html" class="button">Next Member</a>
+      </center>
+      <center>
+        <a href="Jennie.html" class="button2">Previous Member</a>
+      </center>
+      <center>
+        <a href="index.html" class="button">Home</a>
+      </center>
+      </div>
+       </body>
+  </div>
 </html>
