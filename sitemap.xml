@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/</loc>
+  <lastmod>2021-07-17T09:43:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/index.html</loc>
+  <lastmod>2021-07-17T09:43:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/aboutmembers.html</loc>
+  <lastmod>2021-07-17T09:48:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/videos.html</loc>
+  <lastmod>2021-06-30T14:05:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/aboutme.html</loc>
+  <lastmod>2021-07-17T07:43:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/Jennie.html</loc>
+  <lastmod>2021-07-17T07:53:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/Ros%C3%A9Solo.html</loc>
+  <lastmod>2021-07-17T10:00:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://myblackpinkwebsite.glitch.me/Lisa.html</loc>
+  <lastmod>2021-07-17T09:47:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

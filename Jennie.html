@@ -1,99 +1,180 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <style>h4 {
-  background-color: #FF80FF;
-    opacity: 80%;
-}
-       h1 {
-  background-color: #FF80FF;
-         opacity: 80%;
-}
-    
-       </style>
-    <title>Jennie</title>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        [class*="col-"] {
-  width: 100%;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-}
-@media only screen and (min-width: 768px) {
-         body{
-         cursor:url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FBlackpink%20Lightstick.cur?v=1615995035242"), auto;
-         }
-      </style>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+      .parallax {
+        background-image: url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fjennie-from-blackpink-3n.jpg?v=1626508344243");
 
-<body bgcolor="pink">
-  <script language=JavaScript>
+        /* Set a specific height */
+        min-height: auto;
 
-var message="Function Disabled!";
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <title>Jennie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
+  <body bgcolor="pink">
+    <script language="JavaScript">
+      var message = "Function Disabled!";
 
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
+      function clickIE4() {
+        if (event.button == 2) {
+          alert(message);
+          return false;
+        }
+      }
 
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
+      function clickNS4(e) {
+        if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == 2 || e.which == 3) {
+            alert(message);
+            return false;
+          }
+        }
+      }
 
-document.oncontextmenu=new Function("alert(message);return false")
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS4;
+      } else if (document.all && !document.getElementById) {
+        document.onmousedown = clickIE4;
+      }
 
-</script>
-  <div 
- style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
- unselectable="on"
- onselectstart="return false;" 
- onmousedown="return false;">
-    <script data-ad-client="ca-pub-5894482427254751" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-  (function(d, id) {
-    if (d.getElementById(id)) return;
-    var sc, node = d.getElementsByTagName('script')[0];
-    sc = d.createElement('script'); sc.id = id;
-    sc.src = 'https://sdk.getsitekit.com/static/js/app.js#apiKey=16400aeb107d6a9bbd902f428a8bef80';
-    node.parentNode.insertBefore(sc, node);
-  }(document, 'sitekit-sdk'));
-</script>
+      document.oncontextmenu = new Function("alert(message);return false");
+    </script>
+    <div
+      style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"
+      unselectable="on"
+      onselectstart="return false;"
+      onmousedown="return false;"
+      class="parallax"   
+    >
+      <script
+        data-ad-client="ca-pub-5894482427254751"
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+      <script>
+        (function(d, id) {
+          if (d.getElementById(id)) return;
+          var sc,
+            node = d.getElementsByTagName("script")[0];
+          sc = d.createElement("script");
+          sc.id = id;
+          sc.src =
+            "https://sdk.getsitekit.com/static/js/app.js#apiKey=16400aeb107d6a9bbd902f428a8bef80";
+          node.parentNode.insertBefore(sc, node);
+        })(document, "sitekit-sdk");
+      </script>
 
- <audio autoplay loop>
-  <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FJENNIE%20-%20'SOLO'%20CHOREOGRAPHY%20UNEDITED%20VERSION.mp3?v=1613741188721">
-  </audio>
-    <marquee>
-      Song : <b>SOLO. [Jennie]. <a href="https://www.youtube.com/watch?v=vdDuCvCrcKg">Music Video</a></b>
-</marquee>
-    <h1><center><b><i><u>Jennie Kim aka Jennie</u></i></b></center></h1>
-    <center><img src="Jennie.webp"></center>
-    <p>
-        <center><i><b><u> Jennie Kim (Korean: 김제니; born January 16, 1996), better known by the mononym Jennie, is a South Korean singer and rapper. Born and raised in South Korea, Kim studied in New Zealand at the age of eight for five years, before returning to South Korea in 2010. She later debuted as a member of the girl group Blackpink under YG Entertainment in August 2016 and made her solo debut with the single "Solo" on November 12, 2018.
-	 </u></b></i></center>
-    </p>
-    <center>
-        <button><a href="https://en.wikipedia.org/wiki/Jennie_(singer)" target="blank">Know More</button></center>
-	<center><button><a href="Rose.html">Next Member</button></center>
-		<center><button><a href="aboutmembers.html">Go To Previous Member</a></center>
-    </button>
-      </div></body>
+      <audio autoplay loop>
+        <source
+          src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FJENNIE%20-%20'SOLO'%20CHOREOGRAPHY%20UNEDITED%20VERSION.mp3?v=1613741188721"
+        />
+      </audio>
+      <marquee>
+        Song :
+        <b
+          >SOLO. [Jennie].
+          <a href="https://www.youtube.com/watch?v=vdDuCvCrcKg"
+            >Music Video</a
+          ></b
+        >
+      </marquee>
+      <h1>
+        <center>
+          <b
+            ><i><u>Jennie Kim aka Jennie</u></i></b
+          >
+        </center>
+      </h1>
+      <center><img src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2F1099874.jpg?v=1626508179156" class="responsive"></center>
+      <h4>
+        <center>
+          <hr>
+                Stage Name: Jennie<br><hr>
+Birth Name: Kim Jennie (김제니)<br><hr>
+Position: Main Rapper, Lead Vocalist<br><hr>
+Birthday: January 16, 1996<br><hr>
+Zodiac Sign: Capricorn<br><hr>
+Birthplace: Cheongdam-dong, Seoul, South Korea<br><hr>
+Height: 163 cm (5’4″)<br><hr>
+Weight: 45 kg (99 lbs)<br><hr>
+Blood Type: B<br><hr>
+MBTI Type: INFP<br><hr>
+Instagram: @jennierubyjane / @lesyeuxdenini<br><hr>
+Weibo: jennierubyjane<br><hr>
+Youtube: Jennierubyjane Official<br><hr>
 
+<br><hr>
+ <hr>
+            <b><i>Jennie Facts:</i></b><br><hr>
+– She was born in Cheongdam-dong (Gangnam District) Seoul, South Korea.<br><hr>
+– She doesn’t have any siblings.<br><hr>
+– Jennie lived in Auckland, New Zealand for 5 years. (“Knowing Brother”)<br><hr>
+– She studied in New Zealand at ACG Parnell College.<br><hr>
+– Jennie is known as ‘the YG princess’ in the group.<br><hr>
+– One of her nicknames used to be “Human Gucci” due to the fact that she often wears expensive clothing from Gucci, nowadays it’s ‘Human Chanel’.<br><hr>
+– She had “mandukie” as a nickname because her cheeks looks like a dumpling and dumpling in korea is “Mandu”.<br><hr>
+– Jennie said that her nickname when she was young was Jerry, because of Tom and Jerry, and Jerry sounded like Jennie, so that’s how she got it.<br><hr>
+– She also has the nickname NiNi, she will call herself it all the time when posting on the Vapp or IG.<br><hr>
+– Jennie’s Chinese zodiac sign is Pig.<br><hr>
+– She trained for 5 years 11 months (2010 August).<br><hr>
+– She is fluent in Korean, Japanese, and English.<br><hr>
+– She really likes milk flavored ice cream.<br><hr>
+– Her favorite foods are anything that is Korean food.<br><hr>
+– Her favorite drinks are healthy drinks.<br><hr>
+– Her favorite colors are black and pink.<br><hr>
+– Her favorite number is 1. (Vlive Star Road ep. 13 and 14)<br><hr>
+– She has a motion sickness issue (BLACKPINK HOUSE).<br><hr>
+– She has 2 puppies, Kai and Kuma.<br><hr>
+– Jennie can play the piano and the flute.<br><hr>
+– Jennie is the best at cooking. (From BlackPink’s ch+ survey, the members voted Jennie as the person who is the best at cooking).<br><hr>
+– Jennie has a habit of playing with her hair while watching tv 😉<br><hr>
+– One of Jennie’s hobbies is taking pictures.<br><hr>
+– Jennie’s favourite animals are chinchillas and capybaras. (BLACKPINK “Star Road” ep.8)<br><hr>
+– Jennie Hidden Talent is speaking in a “baby voice” (BP in Weekly Idol)<br><hr>
+– Jennie said she enjoy speaking in satoori (dialect).<br><hr>
+– She is close friends with Nayeon (Twice), Irene (Red Velvet), Yerin (GFriend), Chahee (Melody Day) and Lime (Hello Venus).<br><hr>
+– Jennie prefers sexy guys over cute ones. (Blackpink Live Radio Interview)<br><hr>
+– Jennie said if she was a guy, she would date Jisoo because she makes her laugh. (AIIYL v-live comeback)<br><hr>
+– Jennie is the fashion icon of the group. (Based on their previous interviews; also she’s usually the member who gets invited to luxury fashion events)<br><hr>
+– She acted in BIG BANG G-Dragon’s ‘That XX’ MV.<br><hr>
+– She was featured in BIG BANG G-Dragon’s ‘Black’, Lee Hi’s ‘Special’ and BIG BANG Seungri’s ‘GG Be’.<br><hr>
+– She also sang in LEE HI‘s ‘Special’ and Seungri ‘GG Be’.<br><hr>
+– She acted is several CFs for Sprite or CASS beer.<br><hr>
+– Jennie said she is the type who falls in love easily. (“Knowing Brother”)<br><hr>
+– Jennie ranked 18th on “The 100 Most Beautiful Faces Of 2017”.<br><hr>
+– Jennie is ranked 13th on TC Candler “The 100 Most Beautiful Faces of 2018”.<br><hr>
+– Jennie ranked 19th on TC Candler “The 100 Most Beautiful Faces of 2019”.<br><hr>
+– She is a regular member of the show “Village Survival, the Eight”.<br><hr>
+– Jennie is the Chanel House Ambassador, Hera Muse/Global Ambassador, KTcorp Endorser (The biggest telephone company in South Korea), Endorser Of Calvin Klein Jeans, Endorser Of Gentle Monster and has collaborated with them and designed her own sunglasses collection.<br><hr>
+– She is the first kpop idol to be in cover of Korea’s Top 6 magazines, such as ELLE magazines, Cosmopolitan magazines, Harper’s Bazaar magazines, W magazines, Vogue Korea magazines, and Marie Claire magazines.<br><hr>
+– Jennie has appeared on the covers of numerous smaller magazines such as, Top Class, Dazed, Nylon Japan, Billboard, and High Cut.<br><hr>
+– During pre-debut Jennie had a temporary tattoo on her wrist with the words “Stay Strong” designed in cursive. She used it as a reminder to keep holding on to her dream of being an idol. As she trained for six years in YG Entertainment before her debut in 2016, it was a long and arduous journey for her.<br><hr>
+– On November 12. 2018, Jennie debuted as a soloist with the song “SOLO“.<br><hr>
+– Jennie’s ideal type: someone who is a hard worker<br><hr>
+        </center>
+      </h4>
+       <center>
+        <a href="https://en.wikipedia.org/wiki/Jennie_(singer)" class="button" target="blank">Know More</a>
+      </center>
+      <center>
+        <a href="RoséSolo.html" class="button2">Next Member</a>
+      </center>
+      <center>
+        <a href="aboutmembers.html" class="button">Previous Member</a>
+      </center>
+      <center>
+        <a href="index.html" class="button2">Home</a>
+      </center>
+    </div>
+  </body>
 </html>
