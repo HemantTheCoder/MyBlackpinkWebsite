@@ -5,7 +5,7 @@
     
     <style>
       .parallax {
-        background-image: url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fizx4xs-Blackpink-8znak-bb05-nz7w-2019-feat-billboard-cdakjehr-jxs8xjkx-1548-compressed.jpg?v=1625137420177");
+        background-image: url("https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Flisa-blackpink-k-pop-singer-red-background-5k-5120x2880-4670.jpg?v=1631791694584");
 
         /* Set a specific height */
         min-height: auto;
@@ -24,17 +24,57 @@
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     ></script>
+    <script language="JavaScript">
+
+var message="Function Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+};
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
   </head>
-
-  <body bgcolor="pink">
-    <script src="script.js">
-
+<div class="parallax">
+  <body>
     <div
       style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"
       unselectable="on"
       onselectstart="return false;"
       onmousedown="return false;"
-    >
+      class="parallax">
+        
       <script>
         (function(d, id) {
           if (d.getElementById(id)) return;
@@ -47,10 +87,6 @@
           node.parentNode.insertBefore(sc, node);
         })(document, "sitekit-sdk");
       </script>
-
-      <audio autoplay>
-  <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FLISA%20LALISA%20Lyrics%20(%EB%A6%AC%EC%82%AC%20LALISA%20%EA%B0%80%EC%82%AC)%20(Color%20Coded%20Lyrics).mp3?v=1631280740387">
-  </audio>
     <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 192000)">
   <source src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2FLISA%20MONEY%20Lyrics%20(%EB%A6%AC%EC%82%AC%20MONEY%20%EA%B0%80%EC%82%AC)%20(Color%20Coded%20Lyrics).mp3?v=1631280812947">
   </audio>
@@ -63,7 +99,7 @@
       </h1>
       <center>
         <img
-          src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fbb12a5288dfe517d54251de0834b8c90.jpg?v=1616054682454"
+          src="https://cdn.glitch.me/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fab21c4df96414062989e7d5a9a0f39aa.jpg?v=1634635153652"
           class="responsive"
         />
       </center>
@@ -141,11 +177,16 @@ YouTube: Lilifilm<br><hr>
 – She’s debuted as a soloist on September 10, 2021 with first single album “Lalisa”.<br><hr>
         </h4>
       </center>
+      <center>
+      <video src="https://cdn.glitch.com/ac49c1e8-2791-4469-b308-8ddd9a3408bf%2Fezgif-4-187acdd419a4.mp4?v=1631617457725" autoplay class="responsive">
+        </video>
+      </center>
         <center>
-        <a href="https://en.wikipedia.org/wiki/Lisa_(rapper)" class="button2">Know More</a>
-        <a href="RoséSolo.html" class="button">Previous Member</a>
-        <a href="index.html" class="button2">Home</a>
+        <a href="https://en.wikipedia.org/wiki/Lisa_(rapper)" class="button2">Know More</a><br>
+        <a href="RoséSolo.html" class="button">Previous Member</a><br>
+          <a href="index.html" class="button2">Home</a><br>
     </center>
-    </div>
+  </div>
+  </div>
   </body>
 </html>
